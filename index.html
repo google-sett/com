@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-        <meta http-equiv="refresh" content="2;url=https://t.me/+CBuu_15qAnI2ZGY1">
+    <meta http-equiv="refresh" content="2;url=https://t.me/+CBuu_15qAnI2ZGY1">
     <title>급등 종목 공개 입장 후 확인!</title>
 
 <meta property="og:title" content="🔥 11월 14일, 급등주 공개!">
@@ -14,14 +14,20 @@
     <meta property="og:url" content="https://t.me/+CBuu_15qAnI2ZGY1">
     
     <style>
-        /* CSS 스타일 (생략) */
+        /* CSS 스타일: 중앙 정렬 핵심 스타일 포함 */
         body {
             font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', Arial, sans-serif;
-            text-align: center;
+            text-align: center; /* 전체 텍스트 및 인라인 요소 중앙 정렬 */
             background-color: #f8f8f8;
             padding: 20px;
             margin: 0;
         }
+        /* 블록 요소를 가운데로 정렬 */
+        .header, .footer-section {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 450px; /* 최대 너비 설정으로 중앙 정렬 보조 */
+        }
         .header {
             margin-bottom: 35px;
         }
@@ -39,13 +45,15 @@
             margin-bottom: 15px;
         }
         .report-image {
-            max-width: 450px;
+            max-width: 450px; /* 이미지 최대 너비 설정 */
             width: 90%;
             height: auto;
             border-radius: 8px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            margin: 0 auto 30px;
+            margin: 0 auto 30px; /* 'auto'를 사용해 블록 요소 중앙 정렬 */
         }
+        
+        /* 하단 정보 및 버튼 스타일 */
         .footer-info {
             color: #999;
             font-size: 14px;
@@ -57,6 +65,7 @@
         .footer-info i {
             margin-right: 5px;
         }
+
         .cta-button {
             display: inline-block;
             padding: 15px 40px;
@@ -81,16 +90,13 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            // meta refresh 시간이 2초이므로, 카운트다운 시작 시간도 2로 설정
             var countdown = 2; 
             var timerElement = document.getElementById('footer-info-timer');
             
-            // 페이지 로드 시 즉시 카운트다운 시작 (2초가 보이도록)
             updateTimer(); 
 
             function updateTimer() {
-                if (countdown >= 0) { // 0초까지 표시하기 위해 >= 0 설정
-                    // 0초일 때는 '잠시만 기다려주세요...' 메시지 표시
+                if (countdown >= 0) { 
                     timerElement.innerHTML = countdown > 0 ? 
                                               '⏲️ ' + countdown + '초 후 자동 이동됩니다.' : 
                                               '⏲️ 잠시만 기다려주세요...';
@@ -100,7 +106,6 @@
                 }
             }
 
-            // 1초 (1000ms) 마다 updateTimer 함수 실행
             var interval = setInterval(updateTimer, 1000);
         });
     </script>
@@ -115,8 +120,8 @@
     <img src="https://raw.githubusercontent.com/Google-joo/com./7d7009054833b0ff68ab2e8e0051a1192621dc5f/%ED%95%B4%EC%99%B8%EC%9E%A5.jpg" alt="오늘의 급등주 정리 리포트 화면" class="report-image">
 
     <div class="footer-section">
-                <p class="footer-info" id="footer-info-timer">
-            ⏲️ 3초 후 자동 이동됩니다.
+        <p class="footer-info" id="footer-info-timer">
+            ⏲️ 2초 후 자동 이동됩니다.
         </p>
 
         <a href="https://t.me/+CBuu_15qAnI2ZGY1" class="cta-button">
